@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PF</title>
+    <title>PF Mod</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -17,6 +17,13 @@
         p {
             color: #666;
         }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
 		.clickable {
             cursor: pointer;
             color: blue;
@@ -25,12 +32,12 @@
     </style>
 </head>
 <body>
-    <h1>Project Flower Official site</h1>
-    <p id="clickable-paragraph" class="clickable">Minecraft related</p>
-	<p></p>
+    <h1>Project Flower Official Minecraft mod!</h1>
+    <p>Just a cool mod I am making!</p>
+	<p id="clickable-paragraph" class="clickable">Mod Download</a></p>
 	<script>
         document.getElementById('clickable-paragraph').addEventListener('click', function() {
-            window.location.href = 'Minecraft/index.html';
+            window.location.href = 'https://modrinth.com/project/projectflower';
         });
     </script>
 </body>
